@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'new2.css' %}">
+</head>
+<body>
+<body class="new2">
+<form method="" action="post">
+    {% csrf_token %}
+<a href="{% url 'logout' %}">Registration successfully</a><br>
+</form>
+</body>
+</body>
+</html>
